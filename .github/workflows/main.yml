@@ -16,4 +16,4 @@ jobs:
       - name: Push to hub
         env:
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
-        run: git push --force https://abod54:$HF_TOKEN@huggingface.co/spaces/abod54/backend_udemy main
+        run: git push --force https://booda55:$HF_TOKEN@huggingface.co/spaces/booda55/py_backend main
